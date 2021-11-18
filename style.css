@@ -1,1 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    font-family: sans-serif;
+}
 
+#page-title {
+    color: #f7f7f7;
+    text-align: center;
+    border-bottom: 1px dotted #404040;
+}
+
+img {
+    width: 420px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 50px;
+    padding: 20px 0 15px 18px;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    width: 420px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: #000 0 10px 30px;
+    border: 1px solid #1a1a1a;
+}
+
+#joey {
+    grid-row: 2;
+}
+
+#monica {
+    grid-row: 1;
+}
+
+#chandler {
+    grid-row: 2;
+}
+
+#phoebe {
+    grid-row: 1;
+}
+
+#ross {
+    grid-row: 2;
+}
+
+#rachel {
+    grid-row: 1;
+}
